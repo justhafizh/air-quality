@@ -6,7 +6,7 @@ import seaborn as sns
 sns.set(style="white")
 
 # import data
-df_all_city = pd.read_csv("all_city_df.csv")
+df_all_city = pd.read_csv("../all_city_df.csv")
 
 # dataframe
 
