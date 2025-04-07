@@ -66,7 +66,7 @@ with st.sidebar:
         value=[min_date, max_date],
     )
     selected_param = st.selectbox(
-    label="air quality parameter",
+    label="Air Quality Parameter",
     options = ["PM2.5", "PM10", "SO2", "NO2", "CO", "O3"]
 )
 
